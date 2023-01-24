@@ -146,5 +146,16 @@ function moveToDot(index) {
     getPosition();
     getActiveDot();
 }
+
+function autoPlay() {
+    setInterval(() => {
+        getNextSlide();
+    }, 5000);
+}
+
+if(slider.classList.contains('autoplay')) {
+    autoPlay();
+}
+
 moveToDot(0);
 getActiveDot();
