@@ -8,24 +8,18 @@ If this is your first time getting started. Below is a short guide on how to imp
 
 ### Implementing the slider
 
-```
-    <div class="slider autoplay">
-		<div class="slide slide-1 active">
-            <div>
-                Hello test slider
-            </div>
-        </div>
-        <div class="slide slide-2">
-            <div>
-                Hello test slider
-            </div>
-        </div>
-        <div class="slide slide-3">
-            <div>
-                Hello test slider
-            </div>
-        </div>
-    </div>
+```html
+<div class="slider autoplay">
+	<div class="slide slide-1 active">
+		<div>Hello test slider</div>
+	</div>
+	<div class="slide slide-2">
+		<div>Hello test slider</div>
+	</div>
+	<div class="slide slide-3">
+		<div>Hello test slider</div>
+	</div>
+</div>
 ```
 
 The main slider component is made of 3 or 4 main classnames
@@ -37,12 +31,12 @@ The main slider component is made of 3 or 4 main classnames
 
 ### Adding the dots and arrows
 
-```
-    <div class="buttons">
-		<div class="next"> > </div>
-		<div class="prev"> < </div>
-	</div>
-	<div class="dots"></div>
+```html
+<div class="buttons">
+	<div class="next">></div>
+	<div class="prev"><</div>
+</div>
+<div class="dots"></div>
 ```
 
 Finally, the arrows and dots are finally added using classnames too. The classnames that are added here are specified below
