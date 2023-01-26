@@ -1,0 +1,64 @@
+.slide div {
+    width: 60%;
+    height: auto;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.slide .paragraph {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #000;
+}
+
+.slide button {
+    padding: 10px 15px;
+    min-width: 50px;
+    background-color: rgb(4, 104, 255);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 30px auto;
+}
+
+.slide button:hover {
+    background-color: white;
+    border: 1px solid rgb(4, 104, 255);
+    color: rgb(4, 104, 255);
+}
+
+.slide button a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+.slide .client img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit:fill;
+    margin: 20px auto;
+}
+
+.slide-3 {
+    background-image: url(./assets/images/bg-slide.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .slide div {
+        width: 90%;
+    }
+}
+    
